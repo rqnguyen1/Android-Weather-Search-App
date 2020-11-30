@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="start|center_vertical"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/iconView"
+        android:layout_width="31dp"
+        android:layout_height="55dp"
+        tools:srcCompat="" />
+
+    <TextView
+        android:id="@+id/minView"
+        android:layout_width="68dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_horizontal|left|center_vertical"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/maxView"
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+</LinearLayout>
